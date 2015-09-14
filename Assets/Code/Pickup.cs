@@ -4,6 +4,7 @@ using System.Collections;
 public class Pickup : MonoBehaviour
 {
     //functie is virtual zo dat die ge override kan worden
+
     public virtual void PlayerHit(Player _GO)
     {
         //dit is de basis van de PlayerHit functie
@@ -17,4 +18,5 @@ public class Pickup : MonoBehaviour
             PlayerHit(l_player);
         }
     }
+
 }
